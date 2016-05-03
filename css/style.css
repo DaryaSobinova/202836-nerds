@@ -11,3 +11,50 @@ h1 {
 	color: #000000;
 
 }
+.container {
+	width: 880px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background: #d1ff81;
+}
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+.main-navigation {
+	float: left;
+	width: 600px;
+	background: #96b6ff;
+}
+.index-logo {
+	float: left;
+	width: 140px;
+	background: #fffb81;
+}
+.user-block {
+	float: right;
+	width: 120px;
+	background: #fffb81;
+}
+.features {
+	float: left;
+}
+.slider{
+	position:relative;
+	width:880px;
+	height:310px;
+	margin:0 auto;
+	background: #fffb81;
+}
+.slider-inner {
+	float: left;
+	width: 480px;
+}
+.slider2 {
+	visibility: hidden;
+}
+.slider3 {
+	visibility: hidden;
+}
