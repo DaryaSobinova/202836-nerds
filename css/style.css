@@ -1,11 +1,11 @@
 body {
-	font-family: Roboto, medium;
+	font-family: Roboto, sans-serif;
 	font-size: 16px;
 	line-height: 22px;
 	color: #283136;
 }
 h1 {
-	font-family: Roboto, medium;
+	font-family: Roboto, sans-serif;
 	font-size: 36px;
 	line-height: 36px;
 	color: #000000;
@@ -26,16 +26,22 @@ h1 {
 .main-navigation {
 	float: left;
 	width: 600px;
+	height: 126px;
 	background: #96b6ff;
+}
+li {
+	display: inline;
 }
 .index-logo {
 	float: left;
 	width: 140px;
+	height: 126px;
 	background: #fffb81;
 }
 .user-block {
 	float: right;
 	width: 120px;
+	height: 126px;
 	background: #fffb81;
 }
 .features {
