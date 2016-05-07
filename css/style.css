@@ -1,11 +1,11 @@
 body {
-	font-family: Roboto, sans-serif;
+	font-family: Roboto, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 22px;
 	color: #283136;
 }
 h1 {
-	font-family: Roboto, sans-serif;
+	font-family: Roboto, Arial, sans-serif;
 	font-size: 36px;
 	line-height: 36px;
 	color: #000000;
@@ -26,22 +26,18 @@ h1 {
 .main-navigation {
 	float: left;
 	width: 600px;
-	height: 126px;
 	background: #96b6ff;
-}
-li {
-	display: inline;
 }
 .index-logo {
 	float: left;
 	width: 140px;
-	height: 126px;
+	height: 107px;
 	background: #fffb81;
 }
 .user-block {
 	float: right;
 	width: 120px;
-	height: 126px;
+	height: 107px;
 	background: #fffb81;
 }
 .features {
@@ -56,11 +52,83 @@ li {
 }
 .slider-inner {
 	float: left;
-	width: 480px;
+	width: 100%;
+	overflow: hidden;
 }
-.slider2 {
-	visibility: hidden;
+.sliders-block {
+	width: 300%;
+	height: 330px
 }
-.slider3 {
-	visibility: hidden;
+.slider-item {
+	float: left;
+	width: 880px;
+}
+.services-item {
+	float: left;
+	width: 240px;
+	margin-right: 80px;
+}
+.block-3 {
+	margin-right: 0;
+}
+.font-size {
+	font-size: 15px;
+}
+.description {
+	height: 474px;
+	position: relative;
+    top: 80px;
+}
+.description-left {
+	width: 580px;
+	float: left;
+}
+.description-right {
+	float: right;
+}
+.partner {
+	height: 166px;
+}
+.img-ex {
+	float: left;
+	width: 235px;
+	text-align: center;
+	position: relative;
+}
+.partner-1 {
+	width: 198px;
+	margin-right: 117px;
+	margin-left: 20px;
+	top: 16px;
+}
+.partner-2 {
+	width: 199px;
+}
+.partner-3 {
+	width: 209px;
+	float: right;
+	margin-right: 20px;
+}
+.map {
+	width: 1200px;
+	height: 416px;
+	margin: 0 auto;
+	position: relative;
+	vertical-align: bottom;
+}
+.index-contacts {
+	position: absolute;
+	top: 88px;
+	margin-left: 180px;
+	width: 214px;
+}
+.footer-bottom {
+	height: 216px;
+}
+.footer-social {
+	width: 240px;
+	float: left;
+}
+.footer-friends {
+	float: right;
 }
