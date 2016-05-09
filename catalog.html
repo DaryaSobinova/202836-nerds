@@ -3,13 +3,15 @@
 	<head>
 		<meta charset="utf-8">
 		<title>catalog</title>
+		<link rel="stylesheet" href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Roboto:500,400">
 		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
 		<header class="main-header">
 			<div class="container clearfix">
 				<div class="index-logo">
-					<a href="index.html"><img src="img/logo-nerds.png" width="140" height="57">
+					<a href="index.html"><img src="img/logo-nerds.png" width="140" height="57"></a>
+				</div>	
 				<nav class="main-navigation">
 					<ul>
 						<li>
@@ -29,12 +31,14 @@
 				<div class="user-block">
 					<a class="basket" href="#">Корзина</a>
 				</div>
-				<section class="greeting">
-					<h1>Добро пожаловать в магазин готовых макетов</h1>
+				<section class="greeting clearfix">
+					<div class="page-heading">
+						<h1>Добро пожаловать в магазин готовых макетов</h1>
+					</div>
 				</section>
 			</div>
 		</header>
-		<main class="container">
+		<main class="container clearfix">
 			<div class="index-content">
 				<div class="index-content-left">
 					<form action="#" method="post">
@@ -50,7 +54,7 @@
 							<label class="min-price">от <input name="min-price" type="text" value="0"></label>
 							<label class="max-price">до <input name="max-price" type="text" value="15000"></label>
 						</div>	
-						<div class="grid">
+						<div class="grid clearfix">
 							<h3>Сетка:</h3>
 							<label><input type="radio" name="adaptive" value="adaptive">Адаптивная</label>
 
@@ -58,7 +62,7 @@
 
 							<label><input type="radio" name="adaptive" value="rubber">Резиновая</label>
 						</div>
-						<div class="features">
+						<div class="features clearfix">
 							<h3>Особенности:</h3>
 								<input type="checkbox" name="slider" id="slider-field">
 								<label for="slider-field">Слайдер</label>
@@ -88,79 +92,79 @@
 						<div class="triangle-right"></div>
 					</div>
 					<div class="product">
-						<div class="mock-up1">
+						<div class="service mock-up1">
 							<div class="cap">
 								<span class="circle"></span>
 								<span class="circle"></span>
 								<span class="circle"></span>
 							</div>
 							<img src="#" width="240" height="270" alt="">
-							<div class="product-description">
+							<div class="substrate product-description">
 								<h2>Aviator</h2>
 								<p>Одностраничный макет с авторским дизайном</p>
 								<a href="#">8 000p.</a>
 							</div>
 						</div>
-						<div class="mock-up2">
+						<div class="service mock-up2">
 							<div class="cap">
 								<span class="circle"></span>
 								<span class="circle"></span>
 								<span class="circle"></span>
 							</div>
 							<img src="#" width="240" height="270" alt="">
-							<div class="product-description">
+							<div class="substrate product-description">
 								<h2>Sunset</h2>
 								<p>Интернет-магазин с личным кабинетом</p>
 								<a href="#">10 000p.</a>
 							</div>
 						</div>
-						<div class="mock-up3">
+						<div class="service mock-up3">
 							<div class="cap">
 								<span class="circle"></span>
 								<span class="circle"></span>
 								<span class="circle"></span>
 							</div>
 							<img src="#" width="240" height="270" alt="">
-							<div class="product-description">
+							<div class="substrate product-description">
 								<h2>Forte</h2>
 								<p>Отличный макет для личного блога</p>
 								<a href="#">5 000p.</a>
 							</div>
 						</div>
-						<div class="mock-up4">
+						<div class="service mock-up4">
 							<div class="cap">
 								<span class="circle"></span>
 								<span class="circle"></span>
 								<span class="circle"></span>
 							</div>
 							<img src="#" width="240" height="270" alt="">
-							<div class="product-description">
+							<div class="substrate product-description">
 								<h2>Modern Organic thai</h2>
 								<p>Сайт для ресторана быстрого питания</p>
 								<a href="#">12 000p.</a>
 							</div>
 						</div>
-						<div class="mock-up5">
+						<div class="service mock-up5">
 							<div class="cap">
 								<span class="circle"></span>
 								<span class="circle"></span>
 								<span class="circle"></span>
 							</div>
 							<img src="#" width="240" height="270" alt="">
-							<div class="product-description">
+							<div class="substrate product-description">
 								<h2>Avenue</h2>
 								<p>Макет для блога о путешествиях</p>
 								<a href="#">8 000p.</a>
 							</div>
 						</div>
-						<div class="mock-up6">
+						<div class="service mock-up6">
 							<div class="cap">
 								<span class="circle"></span>
 								<span class="circle"></span>
 								<span class="circle"></span>
 							</div>
 							<img src="#" width="240" height="270" alt="">
-							<div class="product-description">
+							<div class="substrate product-description">
 								<h2>Dovetail</h2>
 								<p>Интернет-магазин с галереей товаров</p>
 								<a href="#">14 000p.</a>
@@ -175,6 +179,8 @@
 					</div>
 				</div>
 			</div>
+		</main>
+		<footer class="main-footer clearfix">
 			<div class="map">
 				<img src="#" width="1200" height="416" alt="">
 				<div class="index-contacts">
@@ -183,8 +189,6 @@
 				<p>тел. +7 (812) 275-75-75</p>
 				<a class="btn" href="#">напишите нам</a>
 			</div>
-		</main>
-		<footer class="main-footer">
 			<div class="container">
 				<section class="footer-social">
 					<a class="social-btn social-btn-vk" href="#">Вконтакте</a>

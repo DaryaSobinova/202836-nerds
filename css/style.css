@@ -31,13 +31,11 @@ h1 {
 .index-logo {
 	float: left;
 	width: 140px;
-	height: 107px;
 	background: #fffb81;
 }
 .user-block {
 	float: right;
 	width: 120px;
-	height: 107px;
 	background: #fffb81;
 }
 .features {
@@ -84,6 +82,7 @@ h1 {
 	float: left;
 }
 .description-right {
+	width: 260px;
 	float: right;
 }
 .partner {
@@ -91,7 +90,7 @@ h1 {
 }
 .img-ex {
 	float: left;
-	width: 235px;
+	width: 270px;
 	text-align: center;
 	position: relative;
 }
@@ -130,5 +129,51 @@ h1 {
 	float: left;
 }
 .footer-friends {
+	width: 560px;
 	float: right;
+}
+.greeting {
+	width: 880px;
+	margin: 0 auto;
+	position: relative;
+	vertical-align: bottom;
+}
+.page-heading {
+	margin: 0 auto;
+	width: 652px;
+	text-align: center;
+}
+.index-content-left {
+	width: 240px;
+	float: left;
+}
+.range-filter {
+	width: 240px;
+}
+.grid {
+	width: 160px;
+}
+.index-content-right{
+	width: 560px;
+	float: right;
+}
+.service {
+	width: 240px;
+	margin-bottom: 80px;
+	display: inline-block;
+}
+.service:nth-child(2n+1) {
+	margin-right: 76px;
+}
+.product {
+	width: 560px;
+	margin: 0 auto;
+	position: relative;
+	vertical-align: bottom;
+}
+.substrate {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	margin-top: -230px;
 }
